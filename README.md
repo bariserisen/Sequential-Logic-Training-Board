@@ -1,38 +1,25 @@
-# Sequential Logic Training Board (SLTB-01) 🚀
+📟 Universal Flip-Flop Logic Tester PCB
+This repository contains the design and documentation for a Sequential Circuit PCB designed to demonstrate and verify the logic of the four fundamental flip-flops.
 
-An educational PCB project designed to visualize and demonstrate the fundamental principles of sequential logic circuits.
+🎯 Project Overview
+The "Flip-Flop Logic Tester" is an educational hardware platform. It allows users to interactively set inputs for SR, JK, D, and T flip-flops and observe the resulting state changes via onboard LEDs synchronized with a clock pulse.
 
-## 📌 Project Overview
-This project features a comprehensive training board containing the four primary types of flip-flops (SR, D, JK, and T). It is designed to provide a hands-on experience with digital logic states, clock transitions, and memory elements.
+📊 Truth Tables & Logic
+Below are the logic tables implemented and verified by this PCB
 
-### Key Features:
-* **Integrated Flip-Flops:** Practical implementation of SR, D, JK, and T-type flip-flops.
-* **Visual Feedback:** Individual LED indicators for all outputs (Q and Q') to monitor logic states in real-time.
-* **Component-Based Design:** Built using standard logic ICs.
-* **Interactive Inputs:** Manual clock pulse and data input switches for testing truth tables.
-[USB B Type Datasheet.pdf](https://github.com/user-attachments/files/25459044/USB.B.Type.Datasheet.pdf)
+🛠 Hardware Features Logic Gates: Designed using [e.g., 74HC series ICs].
+Clock System: Manual tactile switch for single-step execution.
+I/O:Input: Slide switches for logic levels.
+Output: LED indicators for Q and Q'.
+Protection: Integrated current-limiting resistors for all LEDs.
 
-## 🛠 Technical Specifications
-* **Logic Family:** 74xx Series (e.g., 74HC series).
-* **Power Supply:** 5V DC.
-* **Design Tool:** Developed using EasyEDA.
-[Slide[Button Datasheet.pdf](https://github.com/user-atta[74HC74 Datasheet.pdf](https://github.com/user-attachments/files/25459038/74HC74.Datasheet.pdf)
-chments/files/25459037/Button.Datasheet.pdf)
- Sw[74LS02 Datasheet.pdf](https://github.com/user-attachments/files/25459036/74LS02.Datasheet.pdf)
-itch Datasheet.pdf](https://github.com/user-attachments/files/25459035/Slide.Switch.Datasheet.pdf)
+🚀 Getting StartedPower:
+ Plug a USB Type-B cable into the onboard socket (ensure a stable 5V source).
+ Configuration: Set your desired input logic levels using the pins/headers.
+ Execution: Press the corresponding CLK tactile button to trigger a state transition.
+ Verification: Compare the LED indicators (Q and Q') with the truth tables above.
 
-## 📂 Rep[74HC73 Datasheet.pdf](https://github.com/user-attachments/files/25459034/74HC73.Datasheet.pdf)
-ository Str[Sequential-Circuits PCB .pdf](https://github.com/user-attachments/files/25459031/Sequential-Circuits.PCB.pdf)
-ucture
-* **/Hardware**: Contains the circuit schematic and PCB layout exported as **PDF** from EasyEDA.
-* **/Datasheets**: Reference manuals for the logic ICs used in this design (e.g., Flip-Flop ICs).
-* **/Images**: 3D renders and photos of the physical PCB.
+ Designed by: [Barış Erişen]
 
-## 🚀 How to View the Design
-You don't need any special software to view the circuit! Just navigate to the `/Hardware` folder and open the PDF file to see the full schematic. For technical details of the components, check the `/Datasheets` folder.
+Power Requirements: 5V DC @ USB-B
 
-## 📜 License
-This project is licensed under the **MIT License**.
-
----
-*Developed by **Barış Erişen** as part of Electrical and Electronics Engineering studies.*
